@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerni Bogum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="_variabels.scss"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Yerni
+         <span>Bogum</span></a>
+
+         <i class="bx bx-menu " id="menu-icon"></i>
+
+
+         <Nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portofolio">portofolio</a>
+          <a href="#contact-section">Contact</a>
+         </Nav>
+    </header>
+    <section class="home" id="home">
+
+      <div class="home-content">
+        <h1>Hi, It's <span>Yerni</span></h1>
+        <h3>i'm a <span>Programmer & Atlet</span></h3>
+        <p>Seorang programmer sekaligus atlet yang bersemangat, untuk  selalu menemukan keseimbangan antara logika dan fisik!</p>
+
+        <div class="social-icons">
+          </a>
+          <a href="https://www.instagram.com/yyellow_green">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://www.facebook.com/yyellow_green">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://web.whatsapp.com/https://wa.me/081293679310" class="contact-button" id="contact" target="_blank">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </div>
+        <div class="btn-group">
+          <a href="cv.pdf" class="btn" download>Download CV</a>
+          <a href="#contact-section" class="btn">contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="image.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image.jpg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span> Me</span></h2>
+        <p> Saya adalah seorang programmer berbakat dan atlet yang bersemangat. saya memanfaatkan kecerdasan logika dan keterampilan pemrograman untuk menciptakan solusi teknologi yang inovatif, dari aplikasi hingga sistem yang membantu memecahkan berbagai tantangan modern. Sebagai seorang atlet, Saya juga berkomitmen pada disiplin fisik, menggabungkan kerja keras dan ketekunan untuk mencapai kebugaran dan prestasi di bidang olahraga. Baik di dunia digital maupun arena olahraga, saya terus mendorong diri untuk menjadi lebih baik setiap hari. Dengan perpaduan antara ketajaman berpikir dan kekuatan fisik, saya adalah sosok yang percaya bahwa keseimbangan antara pikiran dan tubuh adalah kunci keberhasilan.</p>
+        <a href="#portofolio" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <section id="portofolio">
+  <div class="container">
+    <div class="section-header">
+      <h2>Portofolio</h2>
+    </div>
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('Akademis')"> Setrifikat</button>
+      <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+      <button class="btn" onclick="filterSelection('design')"> Design</button>
+      <button class="btn" onclick="filterSelection('web')"> Web</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/1.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/2.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/3.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/4.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/5.jpg" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column Akademis">
+        <div class="content">
+          <img src="project/2.png" alt="" style="width:100%">
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/s1.jpg" alt="" style="width:100%">
+          <h4>soccer</h4>
+          <p>Dragon Sentul Fc</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/s2.jpg" alt="" style="width:100%">
+          <h4>soccer</h4>
+          <p>Dragon Sentul Fc</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/s3.jpg" alt="" style="width:100%">
+          <h4>soccer</h4>
+          <p>Dragon Sentul Fc</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/b1.jpg" alt="" style="width:100%">
+          <h4>Basketball</h4>
+          <p>SAI Basketball</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/b2.jpg" alt="" style="width:100%">
+          <h4>Basketball</h4>
+          <p>SAI Basketball</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/b3.jpg" alt="" style="width:100%">
+          <h4>Basketball</h4>
+          <p>SAI Basketball</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f1.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f2.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f3.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f4.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f5.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+      <div class="column sport">
+        <div class="content">
+          <img src="project/f6.jpg" alt="" style="width:100%">
+          <h4>Futsal</h4>
+          <p>SAI Futsal</p>
+        </div>
+      </div>
+    
+      <div class="column design">
+        <div class="content">
+          <img src="project/d1.jpg" alt="" style="width:100%">
+          <h4> Kopi</h4>
+          <p>Kemasan Kopi</p>
+        </div>
+      </div>
+      <div class="column design">
+        <div class="content">
+          <img src="project/d2.JPG" alt="" style="width:100%"><a href="https://lanitribe.github.io/katalog/"></a>
+          <h4>Keripik Ubi</h4>
+          <p>Kemasan Keripik</p>
+        </div>
+      </div>
+      <div class="column design">
+        <div class="content">
+          <img src="project/d3.jpg" alt="" style="width:100%">
+          <h4>Keripik Ubi</h4>
+          <p>Kemasan Keripik Ubi</p>
+        </div>
+      </div>
+      <div class="column design">
+        <div class="content">
+          <a href="https://lanitribe.github.io/" target="_blank">
+          <img src="project/d4.jpg" alt="" style="width:100%">
+        </a>
+          <h4>Cover katalog</h4>
+          <i>Suku Lani</i>
+        </div>
+      </div>
+      <div class="column design">
+        <div class="content">
+            <a href="https://lanitribe.github.io/" target="_blank">
+                <img src="project/d5.jpg" alt="Cover katalog" style="width:100%">
+            </a>
+            <h4>Cover katalog</h4>
+            <i>Essay Kearifan Lokal</i>
+        </div>
+    </div>
+    <div class="column design">
+      <div class="content">
+        <img src="project/d6.png" alt="" style="width:100%">
+        <h4>Poster</h4>
+        <i>Poster produk Obelom Mbi</i>
+      </div>
+    </div>
+    <div class="column web">
+      <div class="content">
+          <a href="https://lanitribe.github.io/" target="_blank">
+              <img src="project/w1.png" alt="Cover katalog" style="width: 40%">
+          </a>
+          <h4>Website Suku lani</h4>
+          <i> Tujuan kami membuat website ini untuk mendokumentasikan barang budaya yang ada di Papua pegunungan khususnya di Suku Lani, supaya generasi berikutnya tidak melupakan budaya yang ada di daerah mereka.</i>
+      </div>
+  </div>
+
+</section>
+<section id="contact-section">
+<div class="contact-section">
+  <h2>Contact</h2>
+  <form id="whatsappForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="button" onclick="sendToWhatsApp()">Send Message</button>
+  </form>
+</div>
+  <footer>
+    <p text-white>Created with <span class="heart-icon">♥</span> by Yerni Bogum</p>
+    </footer>
+  </section>
+    <!-- END GRID -->
+    <script src="script.js"></script>
+  </body>
+</html>
